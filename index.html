@@ -2,38 +2,57 @@
 <html lang="en-US">
 
 <head>
+    <!-- Title of the page-->
     <title>
         Coders Coffehouse
     </title>
 
     <!-- CSS File-->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
 </head>
 
 <body>
-    <h1>Welcome to Coders Coffeehouse!</h1>
-    <p>Turning caffeine into code since 1999.</p>
+    <h1 class="text-center">Welcome to Coders Coffeehouse!</h1>
+    <p class="text-center">Turning caffeine into code since 1999.</p>
     <hr>
-    <div style="background-color: chocolate;">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#drinks">Drinks Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div style="background-color: chocolate;" class="text-center text-white">
         <h2>Reasons to love us</h2>
         <p>Free unlimited wifi</p>
         <p>Charging outlets <br> with every table</p>
         <p>High quality coffee <br> to fuel your code</p>
     </div>
     <img src="../assets/images/coders-coffeehouse-project-1.jpg" alt="Cafe table with laptop and coffee.">
+    <div id="drinks" class="text-center">
     <h2>Drinks Menu</h2>
-    <h3>Coffee</h3>
-    <h3>Tea</h3>
-    <h3>Cold drinks</h3>
-   
+    <h3 id="coffee-box">Coffee</h3>
+    <h3 id="tea-box">Tea</h3>
+    <h3 id="cold-drinks-box">Cold drinks</h3>
+</div>
+<div id="contact">
     <h2>Contact</h2>
     <h3>Open times</h3>
     <h3>Get in touch</h3>
-    <span>Phone:</span><span> 012 345 678 910</span>
+    <div>
+    <span class="bold">Phone:</span>
+    <span> 012 345 678 910</span>
+    </div>
+    <div>
+        <span class="bold">Email: </span>
+        <span>email@coderscoffeehouse.com</span>
+    </div>
     <h3>Address</h3>
     <p>Coders Coffeehouse,<br>
         42 Coffeebean Street,<br>
         Dublin</p>
+    </div>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener">Find us on Facebook</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener">Find us on Instagram</a>
+        <a href="https://www.Twitter.com" target="_blank" rel="noopener">Find us on Twitter</a>
 
 </body>
 
